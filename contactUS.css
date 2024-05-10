@@ -1,0 +1,28 @@
+.formhere {
+    height: 50vh;
+    width: 90vw;
+    /* border: 5px solid teal; */
+    border-radius: 10px;
+}
+body {
+    background-color: #6DA5C0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header-navbar{
+    width: 100%;
+}
+.ContactUs, p, h4, h6{
+    margin: 1% 0 .5% 2%;
+}
+#feedback{
+    background-color: #0C7075;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+ .header-logo {
+    margin:0 0 0 -5%; padding: 0%;
+}
+.header-content, ul, li{
+    margin-left: -3%;
+}

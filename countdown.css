@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(background.png);
+    background-image: linear-gradient(rgb(54, 133, 67),rgb(90, 70, 192), rgb(48, 145, 181)) ;
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+    position: relative;
+}
+
+.logo {
+    width: 120px;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.content {
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content h1 {
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.content h1 span {
+    color: #ff3753;
+}
+
+.content button {
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    padding: 12px 25px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.content button img {
+    width: 15px;
+    margin-left: 10px;
+}
+
+.countdown-time {
+    display: flex;
+    margin-left: -16px;
+}
+.countdown-time:hover{
+    background-color: white ;
+    border: 2px solid white;
+    color: rgb(90, 70, 192);
+    border-radius: 2px;
+    width: 75%;
+    height: 80%;
+}
+.countdown-time div {
+    flex-basis: 100px;
+    margin: 9px 15px 5px;
+}
+
+.countdown-time div p {
+    font-size: 60px;
+    margin-bottom: -14px;
+    letter-spacing: 1px;
+}
+
+/* .design{
+    width: 30%;
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    animation: cloth  5s linear infinite;
+    text-align: right;
+    margin-left: 550px;
+}
+@keyframes cloth {
+    0%{
+        opacity: 0;
+        top: 0;
+    }
+    50%{
+        opacity:0.5;
+        top: 50;
+    }
+    to{
+        top: 155;
+        opacity: 1;
+       
+    }
+} */
